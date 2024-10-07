@@ -5,7 +5,7 @@ order: 6
 math: true
 ---
 
-**Alpio:** the ALP phenomenology toolbox
+**ALP-ACA:** the ALP Automated Computing Algorithm
 
 > This site is under construction
 {: .prompt-warning }

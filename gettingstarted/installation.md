@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Installation
-author: Alpio
+author: Alpaca
 ---
 
-Here we will provide the step-by-step instructions to install Alpio in your computer.
+Here we will provide the step-by-step instructions to install ALP-ACA in your computer.

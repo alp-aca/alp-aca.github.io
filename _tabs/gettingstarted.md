@@ -4,4 +4,4 @@ order: 1
 title: Getting started
 ---
 
-Here we will show how to [install](installation) Alpio and a very basic program.
+Here we will show how to [install](installation) ALP-ACA and a very basic program.

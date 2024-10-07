@@ -14,19 +14,19 @@ timezone: Europe/Madrid
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Alpio # the main title
+title: ALP-ACA # the main title
 
-tagline: The ALP phenomenology toolbox # it will display as the subtitle
+tagline: The ALP Automated Computing Algorithm # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  The ALP phenomenology toolbox
+  The ALP Automated Computing Algorithm
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://alpio-axions.github.io"
+url: "https://alp-aca.github.io"
 
 github:
-  username: alpio-axions # change to your GitHub username
+  username: alp-aca # change to your GitHub username
 
 #twitter:
 #  username: twitter_username # change to your Twitter username
@@ -34,12 +34,12 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Alpio
-  email: alpio.axions@gmail.com # change to your email address
+  name: ALP-ACA
+  email: alpautomatedcomputedalgorithm@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/alpio-axions # change to your GitHub homepage
+    - https://github.com/alp-aca # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

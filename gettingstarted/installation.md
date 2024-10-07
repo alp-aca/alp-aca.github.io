@@ -4,4 +4,8 @@ title: Installation
 author: Alpaca
 ---
 
-Here we will provide the step-by-step instructions to install ALP-ACA in your computer.
+## Installing from GitHub
+
+```shell
+pip install git+https://github.com/alp-aca/alp-aca.git
+```

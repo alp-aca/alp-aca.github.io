@@ -12,7 +12,7 @@ math: true
 
 ## Introduction to ALPs
 
-Axion-Like Particles (ALPs) are one of the most popular examples of physics beyond the Standard Model (SM) of particle physics. They are light pseudoscalar particles that arise as the pseudo-Nambu Goldstone boson of some spontaneously broken global $U(1)$ symmetry, and as such, are predicted in a wide range of New Physics models. The difference between ALPs and QCD axions is that in the former case, the mass of the pseudoscalar, $m_a$, and the energy scale at which the symmetry spontaneously breaks, $f_a$, are independent parameters, while in the latter case they are constrained by the relation $m_a f_a \approx m_\pi f_\pi$. As a result, ALPs are viable in a much wider range of masses, including those in the reach of particle colliders.
+Axion-Like Particles (ALPs) represent a significant and widely studied extension of the Standard Model (SM) in particle physics. ALPs are light pseudoscalar particles that emerge as pseudo-Nambu-Goldstone bosons resulting from the spontaneous breaking of a global $U(1)$ symmetry. ALPs are theoretically predicted within various New Physics models. A key distinction between ALPs and Quantum Chromodynamics (QCD) axions lies in the relationship between their mass $m_a$) and the symmetry-breaking energy scale ($f_a$). In the case of ALPs, these two parameters are independent, whereas in QCD axions, they are related by the constraint $m_a f_a \approx m_\pi f_\pi$. This independence allows ALPs to be viable across a broader range of mass scales, including those accessible to particle collider experiments.
 
 ### New Physics: Light or heavy?
 
@@ -20,12 +20,16 @@ Axion-Like Particles (ALPs) are one of the most popular examples of physics beyo
 
 ### Solving the Universe with ALPs
 
-The growing interest in ALPs resides in their ability, depending on the values of $m_a$ and $f_a$ considered, to solve or alleviate some of the long-standing questions afflicting particle physics:
+The increasing interest in Axion-Like Particles (ALPs) stems from their potential to address or mitigate several long-standing issues in particle physics, depending on the specific values of $m_a$ and $f_a$ considered. These issues include:
 
-* The strong CP problem, through the Peccei-Quinn mechanism. Strong interactions do not exhibit any violation of the CP symmetry, as evidenced by the null value, to great experimental accuracy, of the electric dipole moment of the neutron. According to the Peccei-Quinn mechanism, an axion would naturally drive the CP-violating parameter of the strong interaction, $\theta_\mathrm{QCD}$, to zero.
-* Linked to the violation of the CP symmetry there is the problem of baryogenesis, or why there is an imbalance between matter and antimatter in the Universe. One of the Sakharov conditions for baryogenesis is precisely a sizable violation of the CP symmetry, and the CP violation observed in electroweak quark processes is not enough to explain the imbalance between matter and anti-matter.
-* Light axions or ALPs could be a component of the cold Dark Matter, that according to the current cosmological models ($\Lambda$-CDM) constitutes nearly 27% of the energy content of our Universe.
-* Neutrinos are known to have small but non-zero masses (or more precisely, at least two of the neutrino species). However, the mechanism generating those masses is currently unknown. The seesaw mechanism explains the tiny neutrino masses as being inversely proportional to the large masses of the sterile right-handed Majorana neutrinos. The sterile neutrinos would receive their masses through the spontaneous breaking of a global $U(1)$ symmetry, thus the associated Goldstone boson, dubbed as Majoron, is a special case of ALP.
+- **The strong CP problem**, which may be resolved through the Peccei-Quinn mechanism. Despite theoretical predictions, strong interactions exhibit no violation of CP symmetry, as evidenced by the experimentally observed null value of the neutron's electric dipole moment. The Peccei-Quinn mechanism posits that the axion would naturally drive the CP-violating parameter in QCD, $\theta_\mathrm{QCD}$, to zero.
+  
+- **The baryogenesis problem**, linked to CP symmetry violation, refers to the observed imbalance between matter and antimatter in the Universe. According to the Sakharov conditions, a significant violation of CP symmetry is required for baryogenesis, yet the CP violation observed in electroweak quark processes is insufficient to explain the matter-antimatter asymmetry.
+
+- **Dark Matter**: Light axions or ALPs could constitute a portion of cold dark matter, which, according to the current cosmological model ($\Lambda$-CDM), accounts for nearly 27% of the total energy content of the Universe.
+
+- **Neutrino mass**: Although neutrinos are known to have small but non-zero masses (with at least two species exhibiting mass), the mechanism responsible for generating these masses remains unclear. The seesaw mechanism explains the small neutrino masses as inversely proportional to the large masses of sterile right-handed Majorana neutrinos. These sterile neutrinos are thought to acquire their masses through the spontaneous breaking of a global $U(1)$ symmetry, with the associated Goldstone boson, called the Majoron, being a specific case of an ALP.
+
 * Flavour puzzle
 * A(n)dd more...
 
@@ -35,19 +39,29 @@ The growing interest in ALPs resides in their ability, depending on the values o
 
 ## The role of ALP-ACA
 
-[Compare to the situation of heavy NP physics, with consolidated codes: flavio, eos, HEPfit. Shutout to Ciaran O'Hare and his repository]
+[Compare to the situation of heavy NP physics, with consolidated codes: flavio, eos, HEPfit. Shout-out to Ciaran O'Hare and his repository]
 
 ### Our goals
 
-* Creating a database of UV models that produce ALP (e.g. DFSZ, KSVZ), and implementation of their matching into the ALP Lagrangian.
-* Implementating the full one-loop running of the ALP Lagrangian. Extending the results of Bauer, Neubert et al to contributions which are not proportional to the top Yukawa, and cross-checking with automatic matching tools like MatchMakerEFT or Matchete.
-* Creating a database of the different bases of ALP operators used in the literature, and a tool to translate between them.
-* Calculating all decay channels of the ALP, with special focus on the hadronic decays in the 1-3 GeV range, which are notoriously difficult. In this respect, we are extending Aloni's framework to include also ALP couplings to quarks.
-* Calculating production cross-sections for ALPs in colliders like BaBar, Belle, Belle II, BESIII and LHC, in processes like quarkonia decays and leptonic, semileptonic, hadronic and radiative meson decays. We will include the interplay between the lifetime of the ALP and the size of the detectors, resulting in the different regimes of prompt decays, decays with resolved displaced vertices or invisible decays.
-* Creating and update of a database for the experimental measurements relevant for the processes calculated with our code.
-* Performing statistical analysis to determine exclusion regions and fits of the parameters, combining the theoretical calculations and the experimental data.
-* Keeping track of the references to all the formulas and experimental values used during the use of the code, and generating 
-* In future stages of the development, more observables will be included in the code: anomalous magnetic moments, LFV observables, astrophysical probes, cosmology, helioscopes, etc.
+The objectives of our project are outlined as follows:
+
+- **Developing a comprehensive database of UV models** that generate ALPs, such as DFSZ and KSVZ models, and implementing their matching to the ALP effective Lagrangian.
+  
+- **Implementing the full one-loop renormalization group running** of the ALP effective Lagrangian. This includes extending the results of Bauer, Neubert, et al., to contributions beyond those proportional to the top Yukawa coupling, and cross-checking these results with automated matching tools like MatchMakerEFT or Matchete.
+  
+- **Creating a database of ALP operator bases** commonly used in the literature and developing a tool to facilitate translations between different bases.
+
+- **Calculating all ALP decay channels**, with a particular focus on the challenging hadronic decays in the 1-3 GeV mass range. In this regard, we are extending Aloni's framework to incorporate ALP-quark couplings.
+
+- **Calculating production cross-sections for ALPs** in collider experiments such as BaBar, Belle, Belle II, BESIII, and the LHC. These calculations will cover a variety of processes, including quarkonia decays, and leptonic, semileptonic, hadronic, and radiative meson decays. Special attention will be given to the interplay between the ALP lifetime and the detector sizes, leading to different regimes of prompt decays, decays with displaced vertices, and invisible decays.
+
+- **Maintaining and updating a database of experimental measurements** relevant to the processes calculated by our code.
+
+- **Performing statistical analyses** to derive exclusion regions and parameter fits by combining our theoretical calculations with experimental data.
+
+- **Tracking references for all formulas and experimental values** used in the code, with automatic generation of records in BibTeX format.
+
+- **In future development stages**, the code will be expanded to include additional observables such as anomalous magnetic moments, lepton flavor-violating (LFV) observables, astrophysical probes, cosmological data, helioscopes, and more.
 
 The end goal is to provide a one-size-fits-all code such that the user provides a Lagrangian, and with a few lines of code, will obtain a complete picture of the excluded and favoured parameters of their model.
 As the name suggests, a true ALP Automated Computed Algorithm (and also a cool acronym! 🦙).

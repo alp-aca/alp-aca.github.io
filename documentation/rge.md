@@ -33,7 +33,7 @@ The method `match_run` takes the following arguments:
   - `leadinglog`: In the expression above, by approximating $\gamma_{ij}(\mu)$ as a constant (i.e. by neglecting the running of the SM parameters), an approximate solution can be found as 
   
   $$
-  c_i(\mu) \approx \left(\delta_{ij} + \frac{\gamma_{ij}}{16\pi^2}\frac{\mu}{\Lambda} \right)c_j(\Lambda)\,,
+  c_i(\mu) \approx \left(\delta_{ij} + \frac{\gamma_{ij}}{16\pi^2}\log\frac{\mu}{\Lambda} \right)c_j(\Lambda)\,,
   $$
   
   which can be computed efficiently as a matrix multiplication.

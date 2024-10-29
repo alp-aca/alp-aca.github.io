@@ -12,7 +12,7 @@ math: true
 
 ## Introduction to ALPs
 
-Axion-Like Particles (ALPs) represent a significant and widely studied extension of the Standard Model (SM) in particle physics. ALPs are light pseudoscalar particles that emerge as pseudo-Nambu-Goldstone bosons resulting from the spontaneous breaking of a global $U(1)$ symmetry. ALPs are theoretically predicted within various New Physics models. A key distinction between ALPs and Quantum Chromodynamics (QCD) axions lies in the relationship between their mass $m_a$) and the symmetry-breaking energy scale ($f_a$). In the case of ALPs, these two parameters are independent, whereas in QCD axions, they are related by the constraint $m_a f_a \approx m_\pi f_\pi$. This independence allows ALPs to be viable across a broader range of mass scales, including those accessible to particle collider experiments.
+Axion-Like Particles (ALPs) [^2] represent a significant and widely studied extension of the Standard Model (SM) in particle physics. ALPs are light pseudoscalar particles that emerge as pseudo-Nambu-Goldstone bosons resulting from the spontaneous breaking of a global $U(1)$ symmetry. ALPs are theoretically predicted within various New Physics models. A key distinction between ALPs and Quantum Chromodynamics (QCD) axions lies in the relationship between their mass $m_a$) and the symmetry-breaking energy scale ($f_a$). In the case of ALPs, these two parameters are independent, whereas in QCD axions, they are related by the constraint $m_a f_a \approx m_\pi f_\pi$. This independence allows ALPs to be viable across a broader range of mass scales, including those accessible to particle collider experiments.
 
 ### New Physics: Light or heavy?
 
@@ -65,3 +65,9 @@ The objectives of our project are outlined as follows:
 
 The end goal is to provide a one-size-fits-all code such that the user provides a Lagrangian, and with a few lines of code, will obtain a complete picture of the excluded and favoured parameters of their model.
 As the name suggests, a true ALP Automated Computed Algorithm (and also a cool acronym! 🦙).
+
+## References
+
+[^1]: Alda, Jorge, Gabriele Levati, Paride Paradisi, Stefano Rigolin, and Nudzeim Selimovic. 2024. “<span class="nocase">Collider and astrophysical signatures of light scalars with enhanced *τ* couplings</span>,” July. <https://arxiv.org/abs/2407.18296>.
+
+[^2]: Jaeckel, Joerg, and Andreas Ringwald. 2010. “<span class="nocase">The Low-Energy Frontier of Particle Physics</span>.” *Ann. Rev. Nucl. Part. Sci.* 60: 405–37. <https://doi.org/10.1146/annurev.nucl.012809.104433>.

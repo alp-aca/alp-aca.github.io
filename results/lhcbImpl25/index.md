@@ -9,4 +9,7 @@ I am giving the talk **Theoretical developments on Axion-like particles** in the
 
 ## Supplementary material
 
+* [LHCb downstream: Kaon decays](slide_lhcbdownstream_Kpi.html)
+* [LHCb downstream: B decays](slide_lhcbdownstream_BK.html)
 * [LHCb downstream: Hadronic ALP decays](slide_lhcbdownstream_hadr.html)
+* [Going further: T tracks](slide_lhcbdownstreamT.html)

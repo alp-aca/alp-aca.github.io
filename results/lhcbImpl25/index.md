@@ -10,6 +10,7 @@ I am giving the talk **Theoretical developments on Axion-like particles** in the
 
 ## Supplementary material
 
+* [ALP-aca in action!](slide_alpaca_demo.html)
 * [LHCb measurements in ALP-aca](slide_lhcb_alpaca.html)
 * [LHCb downstream: Kaon decays](slide_lhcbdownstream_Kpi.html)
 * [LHCb downstream: B decays](slide_lhcbdownstream_BK.html)

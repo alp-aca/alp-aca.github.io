@@ -8,6 +8,10 @@ math: true
 
 I am giving the talk **Theoretical developments on Axion-like particles** in the workshop **Implications of LHCb measurements and future prospects**.
 
+## Indico contribution
+
+https://indico.cern.ch/event/1558249/contributions/6723316/
+
 ## Supplementary material
 
 * [ALP-aca in action!](slide_alpaca_demo.html)
